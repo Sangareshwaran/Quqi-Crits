@@ -21,7 +21,16 @@ function make(data)
   
   for (let material in data['materials'])
     {
-      console.log(material)
+      var item = document.createElement('div');
+      item.className = 'item';
+      var img = document.createElement('img');
+      img.src = 'https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/images/items/'+ material + '.webp'
+      item.appendChild(img)
+      item.appendChild(document.createElement('h4').textContent = material.split('-')[0])
+      
+      todo.appendChild(item)
+      todo.appendChild(document.createElement('hr'))
+      console.log(item)
     }
     
     card.appendChild(todo);
@@ -40,4 +49,4 @@ async function read_json(path_file) {
         console.error('There has been a problem with your fetch operation:', error);
       }
     }
-make(read_json('./data/furina.json'));
+make(read_json('https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/data/furina.json'));
