@@ -23,17 +23,18 @@ async function make(data) {
     var item = document.createElement('div');
     item.className = 'item';
     var materialImg = document.createElement('img');
-    materialImg.src = 'https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/images/items/' + material + '.webp';
+    materialImg.src = 'https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/images/items/' + data['materials'][material] + '.webp';
     item.appendChild(materialImg);
 
     var materialName = document.createElement('h4');
     materialName.textContent = material.split('-')[0];
     item.appendChild(materialName);
 
-    todo.appendChild(item);
-    todo.appendChild(document.createElement('hr'));
-    console.log("hello?");
+    progress_bars.appendChild(item);
+    progress_bars.appendChild(document.createElement('hr'));
+    console.log(material);
   }
+  todo.appendChild(progress_bars)
 
   card.appendChild(todo);
   document.getElementsByClassName("container")[0].appendChild(card);
