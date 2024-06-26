@@ -10,7 +10,7 @@ async function make(data) {
   var todo = document.createElement('div');
   todo.className = 'todo';
   var img = document.createElement('img');
-  img.src = './images/characters/' + 'furina' + '/icon.webp';
+  img.src = 'https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/images/characters/' + 'furina' + '/icon.webp';
   
   var imgContainer = document.createElement('div');
   imgContainer.appendChild(img);
