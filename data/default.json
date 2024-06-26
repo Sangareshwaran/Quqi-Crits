@@ -1,0 +1,11 @@
+{
+    "ascensions":
+    {
+        "I":{"mora":20,"boss":0,"flower":3,"mob_drop":3,"gem":1},
+        "II":{"mora":40,"boss":2,"flower":10,"mob_drop":15,"gem_1":3},
+        "III":{"mora":60,"boss":4,"flower":20,"mob_drop_1":12,"gem_1":6},
+        "IV":{"mora":80,"boss":8,"flower":30,"mob_drop_1":18,"gem_2":3},
+        "V":{"mora":100,"boss":12,"flower":45,"mob_drop_2":12,"gem_2":6},
+        "VI":{"mora":120,"boss":20,"flower":60,"mob_drop_2":24,"gem_3":6}
+    }
+}
