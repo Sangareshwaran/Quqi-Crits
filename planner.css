@@ -156,6 +156,10 @@ hr {
     transform: scale(1.1); /* Apply scale to the transform property */
 }
 
+.progress_bars {
+    width: 100%; height: 100%;
+}
+
 .todo .progress_bars {
     margin-left: 4%;
     display: flex;

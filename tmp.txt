@@ -5,7 +5,7 @@
                 <div>
                     <img src="./images/charecters/furina/icon.webp" alt="">
                 </div>
-                <div class="progress_bars" style="width: 100%; height: 100%;">
+                <div class="progress_bars" style="">
                     <div class="item">
                         <img src="./images/items/Energy_Nectar.webp" alt="">
                         <h4>Nectar (0/3)</h4>
