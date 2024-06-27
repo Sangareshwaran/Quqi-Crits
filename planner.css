@@ -160,6 +160,9 @@ hr {
     width: 100%; height: 100%;
 }
 
+.progress_bars hr {
+    width: 75%; margin-left: 17px;
+}
 .todo .progress_bars {
     margin-left: 4%;
     display: flex;

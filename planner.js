@@ -27,7 +27,7 @@ async function make(data) {
     item.appendChild(materialImg);
 
     var materialName = document.createElement('h4');
-    materialName.textContent = material.split('-')[0];
+    materialName.textContent = data['materials'][material].split('-')[0];
     item.appendChild(materialName);
 
     progress_bars.appendChild(item);
