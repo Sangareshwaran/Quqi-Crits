@@ -10,7 +10,7 @@ async function make(data) {
   var todo = document.createElement('div');
   todo.className = 'todo';
   var img = document.createElement('img');
-  img.src = 'https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/images/charecters/'+'furina'+'/icon.webp';
+  img.src = 'https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/images/charecters/'+'nahida'+'.png';
   
   var imgContainer = document.createElement('div');
   imgContainer.appendChild(img);
@@ -23,7 +23,7 @@ async function make(data) {
     var item = document.createElement('div');
     item.className = 'item';
     var materialImg = document.createElement('img');
-    materialImg.src = 'https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/images/items/' + data['materials'][material] + '.webp';
+    materialImg.src = 'https://raw.githubusercontent.com/Sangareshwaran/Quqi-Crits/main/images/items/' + data['materials'][material] + '.png';
     item.appendChild(materialImg);
 
     var materialName = document.createElement('h4');
@@ -60,4 +60,5 @@ async function init() {
   }
 }
 
+init();
 init();

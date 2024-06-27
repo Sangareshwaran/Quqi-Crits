@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Genshin_font;
+    src:url("./font.ttf");
+}
+
 body {
     background-color: black;
     color: white;
@@ -112,6 +117,7 @@ hr {
 .container {
     /* Flexbox centering */
     display: flex;
+    flex-direction: column;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering */
 }
@@ -132,6 +138,7 @@ hr {
 .card h1 {
     margin-bottom: 0px;
     margin-top: 15px;
+    font-family: Genshin_font;
 }
 
 .card h4 {
@@ -147,8 +154,11 @@ hr {
 }
 
 .todo img {
-    height: 765px;
-    width: 800px;
+      display: block;
+      max-width:800px;
+      max-height:800px;
+      width: auto;
+      height: auto;
     transition: transform 0.3s ease; /* Add transition to the transform property */
 }
 
