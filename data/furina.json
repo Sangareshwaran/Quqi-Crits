@@ -1,3 +1,13 @@
 {
-    "materials":["varunada_lazurite_chunk","whopperflower_nectar","varunada_lazurite_gemstone","guide_to_justice","shimmering_nectar","teachings_of_justice","energy_nectar","varunada_lazurite_fragment","mora","water_that_failed_to_transcend","varunada_lazurite_sliver","lakelight_lily"]
+    "others": [
+        "lakelight_lily",
+        "crown_of_insight",
+        "energy_nectar",
+        "lightless_mass",
+        "shimmering_nectar",
+        "whopperflower_nectar"
+    ],
+    "book": "justice",
+    "gem": "varunada_lazurite",
+    "boss": "water_that_failed_to_transcend"
 }

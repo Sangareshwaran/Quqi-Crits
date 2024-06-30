@@ -11,9 +11,13 @@
     "gem":[
         "agnidus_agate","varunada_lazurite","vajrada_amethyst","shivada_jade","vayuda_turquoise","prithiva_topaz","brilliant_diamond","nagadus_emerald"
     ],
-    "book":["Freedom","Ballad","Gold","Resistance","Diligence","Prosperity","Transience","Elegance","Light","Admonition","Ingenuity","Praxis"],
-    "boss":["tile_of_decarabians_tower","debris_of_decarabians_city","fragment_of_decarabians_epic","scattered_piece_of_decarabians_dream","luminous_sands_from_guyun","lustrous_stone_from_guyun","relic_from_guyun","divine_body_from_guyun","boreal_wolfs_milk_tooth","boreal_wolfs_cracked_tooth","boreal_wolfs_broken_fang","boreal_wolfs_nostalgia","mist_veiled_lead_elixir","mist_veiled_mercury_elixir","mist_veiled_gold_elixir","mist_veiled_primo_elixir","fetters_of_the_dandelion_gladiator","chains_of_the_dandelion_gladiator","shackles_of_the_dandelion_gladiator","dream_of_the_dandelion_gladiator","grain_of_aerosiderite","piece_of_aerosiderite","bit_of_aerosiderite","chunk_of_aerosiderite","coral_branch_of_a_distant_sea","jeweled_branch_of_a_distant_sea","jade_branch_of_a_distant_sea","golden_branch_of_a_distant_sea","narukamis_wisdom","narukamis_joy","narukamis_affection","narukamis_valor","mask_of_the_wicked_lieutenant","mask_of_the_tigers_bite","mask_of_the_one_horned","mask_of_the_kijin","echo_of_scorching_might","remnant_glow_of_scorching_might","dream_of_scorching_might","olden_days_of_scorching_might","copper_talisman_of_the_forest_dew","iron_talisman_of_the_forest_dew","silver_talisman_of_the_forest_dew","golden_talisman_of_the_forest_dew","oasis_gardens_reminiscence","oasis_gardens_kindness","oasis_gardens_mourning","oasis_gardens_truth"],
-    "mob_drop":[]
+    "book":["freedom","ballad","gold","resistance","diligence","prosperity","transience","elegance","light","admonition","ingenuity","praxis","justice"],
+    "mob_drop":
+    {
+
+    },
+    "weekly_boss":["lightless_mass"],
+    "boss":["water_that_failed_to_transcend","emperor's_resolution"]
 
     
 }
